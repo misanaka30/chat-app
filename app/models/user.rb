@@ -7,7 +7,6 @@ class User < ApplicationRecord
          has_many :rooms, through: :room_user
          has_many :messages
 
-         validates :name, presence: true
+  validates :name, presence: true
 
-  
 end
